@@ -1,0 +1,146 @@
+@charset "utf-8";
+	body{
+		font-family:calibri,sans-serif;
+	}
+	
+	
+	#title_one {
+		font-weight: bold;
+		font-family:calibri,sans-serif;
+	}
+	
+	
+	
+	#table_one{
+		width:80%;
+		height:125px;
+		margin-left:10%;
+		margin-right:10%;
+		border:rgba(0,0,0,1) 2px solid;
+		position:relative;
+	
+	}
+	#table_one #title, #table_two #title, #section_three #title{
+		font-family:calibri,sans-serif;
+		position:absolute;
+		top:-27.5px;
+		left:10px;
+		background-color:#fff;
+	}
+	#table_one input, #table_one select, #table_two input, #table_two select{
+		
+		border:rgba(0,0,0,1) 2px solid;
+		
+	}
+	
+	
+	
+	#table_one div{
+		margin-top:40px;
+		margin-bottom:40px;
+		height:20%;
+		width:100%;
+		position:absolute;
+	}
+	
+	
+		
+	#table_two{
+		width:80%;
+		height:100px;
+		margin-left:10%;
+		margin-right:10%;
+		position:relative;
+		border:rgba(0,0,0,1) 2px solid;
+		
+	}
+	
+	#table_two div{
+		margin-top:40px;
+		margin-bottom:40px;
+		height:20%;
+		position:absolute;
+		width:100%;
+	}
+	
+
+	#selecione_data {
+		
+		outline:none;
+		height:20px;
+		width:150px;
+		border:0.5px;
+		border-style:solid
+	}
+	
+	#section_three{
+		position:relative;
+		width:80%;
+		height:280px;
+		margin-left:10%;
+		margin-right:10%;
+		
+		border:rgba(0,0,0,1) 2px solid;
+	}
+	#table_three{
+		position:absolute;		
+		width:80%;
+		top:10%;
+		left:10%;
+		right:10%;
+		
+		padding:0px;
+		
+		border-radius:0.4em;
+		border:rgba(0,0,0,1) 2px solid;
+		
+		border-collapse: collapse;
+
+		
+	}
+	#table_three th{
+		width:16.6%;
+		margin:0px;
+		padding:0px;
+		color:#fff;
+		font-size:15px;
+		font-weight:bold;
+	}
+	
+	#table_three td{
+		border:#222 1px solid;
+		border-collapse: collapse;
+		font-size:16px;
+	}
+	
+	#table_three tr{
+		width:100%;
+		margin:0px;
+		padding:0px;
+		height:40px;
+		text-align:center;
+	}
+	
+	#table_three tr:nth-child(odd){
+		background-color:#C0C0C0;
+	}
+	
+	#table_three tr:nth-child(1){
+		background-color:#C0C0C0;
+	}
+	
+	#buttons {
+		position:absolute;
+		right:10%;
+		
+	}
+	#buttonPesquisar{
+		position:absolute;
+		right:2%;
+		
+		
+		
+	}
+		
+	
+	
